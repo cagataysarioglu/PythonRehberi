@@ -1,4 +1,4 @@
-# kullaniciAdi = "kursadgokboru"
+# kullaniciAdi = "cagatay"
 # kullaniciParolasi = "1234567"
 
 # girilenKullaniciAdi = input("Kullanıcı adı: ")
