@@ -12,12 +12,12 @@ class Ayakkabi:
             self.aykKimlik = 0
         else:
             self.aykKimlik = ayk_kimlik
-        self.ayakkabiBedeni = ayakkabi_bedeni
-        self.ayakkabiAdi = ayakkabi_adi
-        self.ayakkabiRengi = ayakkabi_rengi
-        self.musteriAdi = musteri_adi
-        self.musteriSoyadi = musteri_soyadi
-        self.siparisTarihi = siparis_tarihi
+            self.ayakkabiBedeni = ayakkabi_bedeni
+            self.ayakkabiAdi = ayakkabi_adi
+            self.ayakkabiRengi = ayakkabi_rengi
+            self.musteriAdi = musteri_adi
+            self.musteriSoyadi = musteri_soyadi
+            self.siparisTarihi = siparis_tarihi
 
     def ayakkabiKaydet(self):
         sql = "INSERT INTO dbo.Ayakkabilar(Ayakkabi_Bedeni, Ayakkabi_Adi, Ayakkabi_Rengi, Musteri_Adi, Musteri_Soyadi, Siparis_Tarihi) VALUES (?, ?, ?, ?, ?, ?)"
