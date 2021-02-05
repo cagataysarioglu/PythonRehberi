@@ -139,16 +139,16 @@ Ayakkabi.ayakkabilariGuncelle(liste)
 
 # Ayakkabi.ayakkabiBilgisi()
 
-# yeniKayit = ayakkabi(38, "Topuklu", "Siyah", "Çağla", "Taşdelen", datetime(2020, 8, 25)),
+# yeniKayit = ayakkabi(38, "Spor", "Siyah", "Çağla", "Taşdelen", datetime(2020, 8, 25)),
 # yeniKayit.ayakkabiKaydet()
 
 ayakkabilar = [
     ("37", "Babet", "Sarı", "Bengü", "Karaogur", datetime(2020, 8, 22)),
     ("37", "Babet", "Siyah", "Bengü", "Karaogur", datetime(2020, 8, 22)),
-    ("39", "Topuklu", "Siyah", "Aybüke", "Yavuzarslan", datetime(2020, 8, 23)),
+    ("39", "Spor", "Siyah", "Aybüke", "Yavuzarslan", datetime(2020, 8, 23)),
     ("38", "Babet", "Lacivert", "Bensu", "Kapganoğlu", datetime(2020, 8, 23)),
-    ("40", "Topuklu", "Siyah", "Gökçe", "Canikligil", datetime(2020, 8, 23)),
-    ("40", "Topuklu", "Mavi", "Gökçe", "Canikligil", datetime(2020, 8, 23)),
-    ("37", "Stiletto", "Sarı", "Elçin", "Atasagun", datetime(2020, 8, 24))
+    ("40", "Spor", "Siyah", "Gökçe", "Canikligil", datetime(2020, 8, 23)),
+    ("40", "Spor", "Mavi", "Gökçe", "Canikligil", datetime(2020, 8, 23)),
+    ("37", "Spor", "Sarı", "Elçin", "Atasagun", datetime(2020, 8, 24))
 ]
 # Ayakkabi.ayakkabilariKaydet(ayakkabilar)
