@@ -6,7 +6,7 @@ class Pencere(QtWidgets.QMainWindow):
         super(Pencere, self).__init__()
         self.setWindowTitle("Uygulama")
         self.setGeometry(200, 200 ,639, 552)
-        self.setWindowIcon(QtGui.QIcon("Turk_bayragi_ikonu.png"))
+        self.setWindowIcon(QtGui.QIcon("ikon.png"))
         self.setToolTip("İpucu aracı")
         self.arayuzTanimla()
 
