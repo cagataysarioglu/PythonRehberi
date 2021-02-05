@@ -39,7 +39,7 @@
 # os.system("notepad.exe") # Belirtilen programı çalıştırır.
 
 # sonuc = os.path.abspath("22_ileri_duzey_moduller.py") # Kesin yolu gösterir.
-# sonuc = os.path.dirname("D:/Kullanıcılar/H. Çağatay Sarıoğlu/Belgeler/Kişisel Belgeler/BTK Akademi/Python/22_ileri_duzey_moduller.py")
+# sonuc = os.path.dirname("D:/Kullanıcılar/CagataySarioglu/Belgeler/Python/22_ileri_duzey_moduller.py")
 # sonuc = os.path.dirname(os.path.abspath("22_ileri_duzey_moduller.py"))
 # sonuc = os.path.exists("01_ilk_uygulama.py")
 # sonuc = os.path.isdir("D:/Kullanıcılar/") # isdir: is directory?
