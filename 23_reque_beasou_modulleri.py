@@ -35,7 +35,7 @@ import json
 #         istek = requests.post(self.api_url + "/user/repos?access_token=" + self.bilet + json={
 #             "name": depoadi,
 #             "description": "Bu sizin ilk deponuz",
-#             "homapage": "https://abrayazilim.com",
+#             "homapage": "https://hcsyazilim.com",
 #             "private": False,
 #             "has_issues": True,
 #             "has_projects": True,
@@ -73,7 +73,7 @@ import json
 #         else:
 #             print("Yanlış bir seçim yapıldı!")
 ############ BEAUTIFULSOUP ###################
-html_belgesi = '''<!doctype html><html lang="tr-TR"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>ABRA YAZILIM</title></head><body style="background-color: #000000;" onload="onKosul()">
+html_belgesi = '''<!doctype html><html lang="tr-TR"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><title>HCS YAZILIM</title></head><body style="background-color: #000000;" onload="onKosul()">
 <div class="birinci_bicim" style="padding-top: 5px;">𐱅𐰭𐰼𐰃𐰤𐰤𐰓𐰖𐰞𐰀</div><div style="font-family: cambria; margin-top: -30px; margin-left: 7px; text-align: left; color: green;">Saat: <span id="taban_zaman"></span></div>
 <div style="font-family: cambria; margin: auto; margin-left: 7px; text-align: left; color: green;">Tarih: <span id="taban_tarih"></span></div><hr>
 <h2 id="abra_yazilim" class="ikinci_bicim" style="margin-bottom: 0%;" onmouseover="abraBuyut()" onmouseout="abraKucult()">𐰉𐰺𐰀∶𐰖𐰔𐰞𐰢</h2><div class="ikinci_bicim" style="font-family: Cambria; font-style: italic; margin-top: 0%;">- Abra Yazılım -</div><p class="ucuncu_bicim" style="margin-bottom: 3px;">𐰉𐰺𐰀∶𐰖𐰔𐰞𐰢∶𐰉𐱁𐱃𐰀∶𐰆𐰞𐰽𐰞∶𐰾𐰃𐰋𐰼𐰏𐰇𐰋𐰤𐰠𐰚∶𐰆𐰞𐰢𐰴∶𐰇𐰔𐰼𐰀∶𐰋𐰃𐰠𐱁𐰢∶𐰋𐰀∶𐱅𐰚𐰣𐰆𐰞𐰲𐰃∶𐰞𐰣𐰦𐰀∶𐰃𐱅𐰚𐰤𐰠𐰚∶𐰏𐰇𐰾𐱅𐰼𐰤∶𐰋𐰃𐰼∶𐱅𐰇𐰼𐰜∶𐰋𐰃𐰠𐱁𐰢∶𐱁𐰃𐰼𐰚𐱅𐰓𐰼∶𐰉𐰺𐰀∶𐰖𐰔𐰞𐰢∶𐰇𐰔𐰠∶𐰾𐰃𐰋𐰼𐰏𐰇𐰋𐰤𐰠𐰚∶𐰲𐰇𐰔𐰢𐰠𐰼𐰃∶𐰇𐰼𐱅𐰼∶𐰘𐰃𐰼𐰠𐰃∶𐰖𐰔𐰞𐰢𐰞𐰺∶𐰋𐰀∶𐰆𐰖𐰍𐰞𐰢𐰞𐰺𐰞𐰀∶𐰇𐰔𐰏𐰤∶𐰚𐰃𐰔𐰢𐱅∶𐰽𐰆𐰣𐰢𐰴𐱃𐰑𐰺</p>
