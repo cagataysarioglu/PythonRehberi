@@ -54,9 +54,6 @@ class Pencere(QtWidgets.QMainWindow):
         # self.arayuz.tabloUrunler.setItem(1,1, QtWidgets.QTableWidgetItem("7600"))
 
 
-
-
-
 def uygulama():
     uyg = QtWidgets.QApplication(sys.argv)
     pencere = Pencere()
