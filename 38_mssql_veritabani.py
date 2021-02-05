@@ -3,7 +3,7 @@ import pypyodbc
 # def urunEkle(ad, yazar, yayin, baski, tur):
 #     baglanti = pypyodbc.connect(
 #         "Driver={SQL Server};"
-#         "Server=𐰲𐰍𐱃𐰖∶𐰽𐰺𐰃;"
+#         "Server=HCS;"
 #         "Database=Kitabevi_VT;"
 #         "Trusted_Connection=True;"
 #     )
@@ -25,7 +25,7 @@ import pypyodbc
 # def urunleriEkle(liste):
 #     baglanti = pypyodbc.connect(
 #         "Driver={SQL Server};"
-#         "Server=𐰲𐰍𐱃𐰖∶𐰽𐰺𐰃;"
+#         "Server=HCS;"
 #         "Database=Kitabevi_VT;"
 #         "Trusted_Connection=True;"
 #     )
@@ -66,7 +66,7 @@ import pypyodbc
 def urunleriGetir():
     baglanti = pypyodbc.connect(
         "Driver={SQL Server};"
-        "Server=𐰲𐰍𐱃𐰖∶𐰽𐰺𐰃;"
+        "Server=HCS;"
         "Database=Kitabevi_VT;"
         "Trusted_Connection=True;"
     )
@@ -117,7 +117,7 @@ def urunBilgisiniGetir():
 def urunuGuncelle(ad, yazar, yayin, tur, id):
     baglanti = pypyodbc.connect(
         "Driver={SQL Server};"
-        "Server=𐰲𐰍𐱃𐰖∶𐰽𐰺𐰃;"
+        "Server=HCS;"
         "Database=Kitabevi_VT;"
         "Trusted_Connection=True;"
     )
