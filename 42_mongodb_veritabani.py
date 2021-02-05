@@ -1,7 +1,7 @@
 import pymongo
 from bson.objectid import ObjectId # Kimlik numarası ile süzgeçleme yapabilmek için.
 
-istemci = pymongo.MongoClient("mongodb://localhost:27017")
+istemci = pymongo.MongoClient("mongodb://localhost:27349")
 
 veritabanim = istemci["ultur-vt"]
 koleksiyonum = veritabanim["urunler"]
