@@ -1,5 +1,3 @@
-# print("Sibel")
-
 ### 1'DEN 100'E KADAR OLAN SAYILARIN TOPLANMASI ALGORİTMASI ###
 '''
 toplam = 0
