@@ -1,16 +1,16 @@
-uygulama_01 = "Python Kursu: Baştan Sona Python Programlama Rehberiniz"
+uygulama_01 = "Türkçe Python Rehberi: HCS"
 sonuc_01 = len(uygulama_01)
 
-uygulama_02 = "http:/www.kursadgokboru.com"
+uygulama_02 = "http:/www.tatutotu.com"
 sonuc_02 = uygulama_02[6:9]
 
-uygulama_03 = "http:/www.kursadgokboru.com"
+uygulama_03 = "http:/www.tatutotu.com"
 sonuc_03 = uygulama_03[-3:]
 
-uygulama_04 = "Python Kursu: Baştan Sona Python Programlama Rehberiniz"
+uygulama_04 = "Türkçe Python Rehberi: HCS"
 sonuc_04 = uygulama_04[:16]
 
-uygulama_05 = "Python Kursu: Baştan Sona Python Programlama Rehberiniz"
+uygulama_05 = "Türkçe Python Rehberi: HCS"
 sonuc_05 = uygulama_05[::-1]
 
 
