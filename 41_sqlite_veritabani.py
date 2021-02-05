@@ -1,6 +1,6 @@
 import sqlite3
 
-baglanti = sqlite3.connect("chinook.db")
+baglanti = sqlite3.connect("veritabani.db")
 imlec = baglanti.cursor()
 
 imlec.execute("SELECT * FROM customers")
