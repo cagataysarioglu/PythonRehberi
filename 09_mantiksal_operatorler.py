@@ -4,7 +4,7 @@
 
 # sonuc = (float(sayi_01) > 0) and (float(sayi_01) % 2 == 0)
 
-# eposta = "kursadgokboru@eposta.com.tr"
+# eposta = "hcs@eposta.com.tr"
 # parola = "1234567"
 
 # epoastaGir = input("E-posta: ")
