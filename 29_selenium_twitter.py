@@ -2,8 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-kullaniciadi = "kursadgokboru"
-parola = "parola345"
+kullaniciadi = "KULLANICIADI"
+parola = "PAROLA"
 
 class Civildak:
     def __init__(self, kullaniciadi, parola):
