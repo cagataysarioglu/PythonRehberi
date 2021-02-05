@@ -1,5 +1,5 @@
-website = "http://www.kursadgokboru.com"
-course = "Python Kursu: Baştan Sona Python Programlama Rehberiniz."
+website = "http://www.tttthcs.com"
+course = "Türkçe Python Rehberi: Baştan Sona Python Programlama Rehberi."
 
 # uygulama_01 = course.upper()
 # uygulama_02 = website.lstrip("t/h:p")
