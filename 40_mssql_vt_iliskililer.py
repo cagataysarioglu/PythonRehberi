@@ -1,7 +1,7 @@
 import pypyodbc
 
 def urunleriGetir():
-    baglanti = pypyodbc.connect("Driver={SQL Server};""Server=𐰲𐰍𐱃𐰖∶𐰽𐰺𐰃;""Database=Ayakkabici_VT;""Trusted_Connection=True;")
+    baglanti = pypyodbc.connect("Driver={SQL Server};""Server=HCS;""Database=Ayakkabici_VT;""Trusted_Connection=True;")
     imlec = baglanti.cursor()
 
     # tumce = "SELECT * FROM dbo.Ayakkabilar"
