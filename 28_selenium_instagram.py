@@ -2,16 +2,16 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-kullaniciadi = "905375871310"
-parola = "umolon27"
+kullaniciadi = "KULLANICIADI"
+parola = "PAROLA"
 
-class Vkontakte:
+class Instagram:
     def __init__(self, kullaniciadi, parola):
         self.surucu = webdriver.Firefox(executable_path="D:/Program Dosyaları/Selenium Firefox Sürücüsü/geckodriver.exe")
         self.kullaniciadi = kullaniciadi
         self.parola = parola
     def girisYap(self):
-        self.surucu.get("https://vk.com/")
+        self.surucu.get("https://instagram.com/")
         time.sleep(2)
         self.surucu.find_element_by_id("index_email").send_keys(self.kullaniciadi)
         self.surucu.find_element_by_id("index_pass").send_keys(self.parola)
@@ -40,11 +40,11 @@ class Vkontakte:
             print(liste)
     def arkadaslariGetir(self):
         time.sleep(7)
-        self.surucu.get("https://vk.com/friends?id=144528327&section=all")
+        self.surucu.get("https://instagram.com/friends?id=144528327&section=all")
         time.sleep(2)
         self.arkadaslariYukle()
 
 
-vk = Vkontakte(kullaniciadi, parola)
-vk.girisYap()
-vk.arkadaslariGetir() 
+instagram = Instagram(kullaniciadi, parola)
+instagram.girisYap()
+instagram.arkadaslariGetir() 
