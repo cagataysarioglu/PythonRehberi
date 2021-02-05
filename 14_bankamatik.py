@@ -1,5 +1,5 @@
-KursadHesap = {
-    "ad": "Kürşad Gökbörü",
+IstemiHesap = {
+    "ad": "İstemi Tuğrul",
     "hesapNu": "552347",
     "bakiye": 5000,
     "ekHesap": 2000
@@ -33,6 +33,6 @@ def paraCek(hesap, miktar):
             bakiyeSorgulama(hesap)
 def bakiyeSorgulama(hesap):
     print(f"Bilgi: {hesap['hesapNu']} numaralı hesabınızda {hesap['bakiye']} Türk Lirası, ek hesabınızda ise {hesap['ekHesap']} Türk Lirası bulunmaktadır.")
-paraCek(KursadHesap, 4000)
+paraCek(IstemiHesap, 4000)
 print("***************************")
-paraCek(KursadHesap, 3000)
+paraCek(IstemiHesap, 3000)
