@@ -7,7 +7,7 @@ def pencere():
 
     pncr.setWindowTitle("İlk Uygulama")
     pncr.setGeometry(200, 200 ,639, 552)
-    pncr.setWindowIcon(QtGui.QIcon("Turk_bayragi_ikonu.png"))
+    pncr.setWindowIcon(QtGui.QIcon("ikon.png"))
     pncr.setToolTip("İpucu aracı")
 
     katman_ad = QtWidgets.QLabel(pncr)
@@ -31,9 +31,6 @@ def pencere():
     kayit_dugmesi.move(115, 95) # kayit_dugmesi.setGeometry(150, 95, 70, 40)
     kayit_dugmesi.setText("Sakla")
     kayit_dugmesi.clicked.connect(tiklandi)
-
-
-
 
     pncr.show()
     sys.exit(uyglm.exec_())
