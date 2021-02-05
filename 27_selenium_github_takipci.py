@@ -3,8 +3,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-kullaniciadi = "cagataysarioglu"
-parola = "aVcAr999"
+kullaniciadi = "KULLANICIADI"
+parola = "PAROLA"
 
 class Github:
     def __init__(self, kullaniciadi, parola):
